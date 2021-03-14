@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: info
+
+# ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+# nacos-config-client-dev.yml

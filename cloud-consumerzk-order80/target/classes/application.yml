@@ -1,0 +1,11 @@
+server:
+  port: 81
+
+spring:
+  application:
+    name: cloud-consumer-order
+  cloud:
+    zookeeper:
+      connect-string: 49.235.59.157:2181
+
+
